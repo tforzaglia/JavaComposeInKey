@@ -1,0 +1,3 @@
+June 1: Have everything basically set up. Now need to just finish up adding the remaining keys to the determineKey method.
+May also want to make additions to the GUI to make it more advanced.
+
