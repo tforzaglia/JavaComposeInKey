@@ -1,4 +1,5 @@
 import java.awt.BorderLayout;
+import java.awt.Color;
 
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
@@ -11,7 +12,8 @@ public class Main {
 	public static void main(String[] args) {
 		
 		//Create the label and buttons for major keys
-		JLabel major = new JLabel("MAJOR");
+		JLabel major = new JLabel("    MAJOR");
+		major.setForeground(Color.RED);
 		JButton aButton = new JButton("A");
 		JButton asButton = new JButton("A#");
 		JButton bButton = new JButton("B");
@@ -26,7 +28,8 @@ public class Main {
 		JButton gsButton = new JButton("G#");
 		
 		//Create the label and buttons for minor keys
-		JLabel minor = new JLabel("MINOR");
+		JLabel minor = new JLabel("    MINOR");
+		minor.setForeground(Color.RED);
 		JButton amButton = new JButton("Am");
 		JButton asmButton = new JButton("A#m");
 		JButton bmButton = new JButton("Bm");
@@ -72,12 +75,15 @@ public class Main {
 		
 		//content JPanel is the content of the entire window
 		JPanel content = new JPanel();
+		content.setBackground(Color.GRAY);
 		
 		//left is JPanel for the major keys
 		JPanel left = new JPanel();
+		left.setBackground(Color.BLACK);
 		
 		//right JPanel is for the minor keys
 		JPanel right = new JPanel();
+		right.setBackground(Color.BLACK);
 		
 		//use a Border Layout for the main window display to have the parts arranged side by side
 		content.setLayout(new BorderLayout());
@@ -129,7 +135,7 @@ public class Main {
 	    window.setContentPane(content);
 	    
 	    //set size large enough horizontally and vertically
-	    window.setSize(250,500);
+	    window.setSize(275,400);
 	    
 	    window.setLocation(100,100);
         window.setVisible(true);
