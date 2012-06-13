@@ -20,31 +20,31 @@ public class MouseHandler implements MouseListener {
 		JLabel chordLabel = (JLabel)ev.getSource();
 		String chordName = chordLabel.getText();
 		
-		ImageIcon a = new ImageIcon("src/a.gif");
-		ImageIcon as = new ImageIcon("src/asharp.gif");
-		ImageIcon b = new ImageIcon("src/b.gif");
-		ImageIcon c = new ImageIcon("src/c.gif");
-		ImageIcon cs = new ImageIcon("src/csharp.gif");
-		ImageIcon d = new ImageIcon("src/d.gif");
-		ImageIcon ds = new ImageIcon("src/dsharp.gif");
-		ImageIcon e = new ImageIcon("src/e.gif");
-		ImageIcon f = new ImageIcon("src/f.gif");
-		ImageIcon fs = new ImageIcon("src/fsharp.gif");
-		ImageIcon g = new ImageIcon("src/g.gif");
-		ImageIcon gs = new ImageIcon("src/gsharp.gif");
+		ImageIcon a = new ImageIcon("images/a.gif");
+		ImageIcon as = new ImageIcon("images/asharp.gif");
+		ImageIcon b = new ImageIcon("images/b.gif");
+		ImageIcon c = new ImageIcon("images/c.gif");
+		ImageIcon cs = new ImageIcon("images/csharp.gif");
+		ImageIcon d = new ImageIcon("images/d.gif");
+		ImageIcon ds = new ImageIcon("images/dsharp.gif");
+		ImageIcon e = new ImageIcon("images/e.gif");
+		ImageIcon f = new ImageIcon("images/f.gif");
+		ImageIcon fs = new ImageIcon("images/fsharp.gif");
+		ImageIcon g = new ImageIcon("images/g.gif");
+		ImageIcon gs = new ImageIcon("images/gsharp.gif");
 		
-		ImageIcon am = new ImageIcon("src/am.gif");
-		ImageIcon asm = new ImageIcon("src/asharpm.gif");
-		ImageIcon bm = new ImageIcon("src/bm.gif");
-		ImageIcon cm = new ImageIcon("src/cm.gif");
-		ImageIcon csm = new ImageIcon("src/csharpm.gif");
-		ImageIcon dm = new ImageIcon("src/dm.gif");
-		ImageIcon dsm = new ImageIcon("src/dsharpm.gif");
-		ImageIcon em = new ImageIcon("src/em.gif");
-		ImageIcon fm = new ImageIcon("src/fm.gif");
-		ImageIcon fsm = new ImageIcon("src/fsharpm.gif");
-		ImageIcon gm = new ImageIcon("src/gm.gif");
-		ImageIcon gsm = new ImageIcon("src/gsharpm.gif");
+		ImageIcon am = new ImageIcon("images/am.gif");
+		ImageIcon asm = new ImageIcon("images/asharpm.gif");
+		ImageIcon bm = new ImageIcon("images/bm.gif");
+		ImageIcon cm = new ImageIcon("images/cm.gif");
+		ImageIcon csm = new ImageIcon("images/csharpm.gif");
+		ImageIcon dm = new ImageIcon("images/dm.gif");
+		ImageIcon dsm = new ImageIcon("images/dsharpm.gif");
+		ImageIcon em = new ImageIcon("images/em.gif");
+		ImageIcon fm = new ImageIcon("images/fm.gif");
+		ImageIcon fsm = new ImageIcon("images/fsharpm.gif");
+		ImageIcon gm = new ImageIcon("images/gm.gif");
+		ImageIcon gsm = new ImageIcon("images/gsharpm.gif");
 		
 		if(chordName == "A"){
 			picture.setIcon(a);

@@ -1,3 +1,4 @@
 June 1: Have everything basically set up. Now need to just finish up adding the remaining keys to the determineKey method.
 May also want to make additions to the GUI to make it more advanced.
 
+June 13: From yesterday. Main application works when run in eclipse. Need to find out how to get the images to load when running the app as a runnable jar file. May want to make minor adjustments to the GUI to make it look better.

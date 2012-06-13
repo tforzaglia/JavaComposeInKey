@@ -195,7 +195,7 @@ public class KeyInfo {
 	public void buildGUI() {
 		
 		//place a generic music based image to start
-		ImageIcon placeholder = new ImageIcon("src/note.jpeg");
+		ImageIcon placeholder = new ImageIcon("images/note.jpeg");
 		chordPic = new JLabel(placeholder);
 		
 		//add the mouse handler to the chord names
