@@ -12,40 +12,40 @@ public class MouseHandler implements MouseListener {
 		picture = l;
 	}
 
-	public void mouseClicked(MouseEvent e) {
-	}
-
+	//method to display pictures when mouse hovers over chord names (labels)
 	public void mouseEntered(MouseEvent ev) {
 		
 		JLabel chordLabel = (JLabel)ev.getSource();
 		String chordName = chordLabel.getText();
 		
-		ImageIcon a = new ImageIcon("images/a.gif");
-		ImageIcon as = new ImageIcon("images/asharp.gif");
-		ImageIcon b = new ImageIcon("images/b.gif");
-		ImageIcon c = new ImageIcon("images/c.gif");
-		ImageIcon cs = new ImageIcon("images/csharp.gif");
-		ImageIcon d = new ImageIcon("images/d.gif");
-		ImageIcon ds = new ImageIcon("images/dsharp.gif");
-		ImageIcon e = new ImageIcon("images/e.gif");
-		ImageIcon f = new ImageIcon("images/f.gif");
-		ImageIcon fs = new ImageIcon("images/fsharp.gif");
-		ImageIcon g = new ImageIcon("images/g.gif");
-		ImageIcon gs = new ImageIcon("images/gsharp.gif");
+		//create the image icons for each chord
+		ImageIcon a = new ImageIcon(getClass().getResource("a.gif"));
+		ImageIcon as = new ImageIcon(getClass().getResource("asharp.gif"));
+		ImageIcon b = new ImageIcon(getClass().getResource("b.gif"));
+		ImageIcon c = new ImageIcon(getClass().getResource("c.gif"));
+		ImageIcon cs = new ImageIcon(getClass().getResource("csharp.gif"));
+		ImageIcon d = new ImageIcon(getClass().getResource("d.gif"));
+		ImageIcon ds = new ImageIcon(getClass().getResource("dsharp.gif"));
+		ImageIcon e = new ImageIcon(getClass().getResource("e.gif"));
+		ImageIcon f = new ImageIcon(getClass().getResource("f.gif"));
+		ImageIcon fs = new ImageIcon(getClass().getResource("fsharp.gif"));
+		ImageIcon g = new ImageIcon(getClass().getResource("g.gif"));
+		ImageIcon gs = new ImageIcon(getClass().getResource("gsharp.gif"));
+
+		ImageIcon am = new ImageIcon(getClass().getResource("am.gif"));
+		ImageIcon asm = new ImageIcon(getClass().getResource("asharpm.gif"));
+		ImageIcon bm = new ImageIcon(getClass().getResource("bm.gif"));
+		ImageIcon cm = new ImageIcon(getClass().getResource("cm.gif"));
+		ImageIcon csm = new ImageIcon(getClass().getResource("csharpm.gif"));
+		ImageIcon dm = new ImageIcon(getClass().getResource("dm.gif"));
+		ImageIcon dsm = new ImageIcon(getClass().getResource("dsharpm.gif"));
+		ImageIcon em = new ImageIcon(getClass().getResource("em.gif"));
+		ImageIcon fm = new ImageIcon(getClass().getResource("fm.gif"));
+		ImageIcon fsm = new ImageIcon(getClass().getResource("fsharpm.gif"));
+		ImageIcon gm = new ImageIcon(getClass().getResource("gm.gif"));
+		ImageIcon gsm = new ImageIcon(getClass().getResource("gsharpm.gif"));
 		
-		ImageIcon am = new ImageIcon("images/am.gif");
-		ImageIcon asm = new ImageIcon("images/asharpm.gif");
-		ImageIcon bm = new ImageIcon("images/bm.gif");
-		ImageIcon cm = new ImageIcon("images/cm.gif");
-		ImageIcon csm = new ImageIcon("images/csharpm.gif");
-		ImageIcon dm = new ImageIcon("images/dm.gif");
-		ImageIcon dsm = new ImageIcon("images/dsharpm.gif");
-		ImageIcon em = new ImageIcon("images/em.gif");
-		ImageIcon fm = new ImageIcon("images/fm.gif");
-		ImageIcon fsm = new ImageIcon("images/fsharpm.gif");
-		ImageIcon gm = new ImageIcon("images/gm.gif");
-		ImageIcon gsm = new ImageIcon("images/gsharpm.gif");
-		
+		//set the appropriate picture based on the position of the mouse pointer
 		if(chordName == "A"){
 			picture.setIcon(a);
 		}
@@ -121,6 +121,9 @@ public class MouseHandler implements MouseListener {
 		}	
 	}
 
+	public void mouseClicked(MouseEvent e) {
+	}
+	
 	public void mouseExited(MouseEvent e) {
 	}
 
