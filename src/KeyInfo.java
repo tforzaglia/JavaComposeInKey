@@ -291,7 +291,7 @@ public class KeyInfo {
 		infoPanel.add(chordPic, c10);
 		
 		//create the main window for the application
-		JFrame window = new JFrame("Test");
+		JFrame window = new JFrame(buttonName);
 			
 		//set the JPanel with all the components to be included in the main window
 	    window.setContentPane(infoPanel);

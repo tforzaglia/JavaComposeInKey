@@ -41,12 +41,12 @@ public class AllKeys {
 		minor.setForeground(Color.RED);
 		minor.setFont(new Font("Serif", Font.PLAIN, 25));
 		
-		JButton amButton = new JButton(" Am");
+		JButton amButton = new JButton("Am");
 		JButton asmButton = new JButton("A#m");
-		JButton bmButton = new JButton(" Bm");
-		JButton cmButton = new JButton(" Cm");
+		JButton bmButton = new JButton("Bm");
+		JButton cmButton = new JButton("Cm");
 		JButton csmButton = new JButton("C#m");
-		JButton dmButton = new JButton(" Dm");
+		JButton dmButton = new JButton("Dm");
 		JButton dsmButton = new JButton("D#m");
 		JButton emButton = new JButton("Em");
 		JButton fmButton = new JButton("Fm");
